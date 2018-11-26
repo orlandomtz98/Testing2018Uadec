@@ -60,11 +60,10 @@ class TestYTapp(unittest.TestCase):
         self.assertListEqual(expected,x)
         print("Terminado prueba mostrar")
 
-    
+
 
 
     def test_infoVideo(self):
-
         print("test_infoVideo")
         #self.assertEqual((5), self.video.ID)
         self.assertEqual(self.yt.InfoVideo("https://www.youtube.com/watch?v=IEI9MDjDiao").Titulo, self.video.Titulo)
